@@ -1,0 +1,1 @@
+# minimum-wages-jp-js
