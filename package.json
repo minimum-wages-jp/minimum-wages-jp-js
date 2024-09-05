@@ -1,0 +1,31 @@
+{
+  "name": "@minimum-wages-jp/minimum-wages-jp-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimum-wages-jp/minimum-wages-jp-js.git"
+  },
+  "author": "Kohei TAKATA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minimum-wages-jp/minimum-wages-jp-js/issues"
+  },
+  "homepage": "https://github.com/minimum-wages-jp/minimum-wages-jp-js#readme",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "humps": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/humps": "^2.0.6",
+    "@types/node": "^22.5.2",
+    "typescript": "^5.5.4"
+  }
+}
